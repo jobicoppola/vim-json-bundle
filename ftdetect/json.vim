@@ -1,2 +1,2 @@
-autocmd BufNewFile,BufRead *.json setf json
-autocmd FileType json setl shiftwidth=2 | setl tabstop=2
+autocmd BufRead,BufNewFile *.json set ft=json
+autocmd FileType json set autoindent expandtab shiftwidth=2 tabstop=2 softtabstop=2
